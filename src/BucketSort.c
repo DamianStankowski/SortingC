@@ -31,11 +31,10 @@ int* searchMaxVal(int* data, int dataSize){
 }
 
 int calculateBucketNumbers(int dataSize){
-    int bucketsNumbers = 1 + (int)(3.332 * log10(dataSize));
-    return bucketsNumbers;
+    return 1 + (int)(3.332 * log10(dataSize));
 }
 int calculateIntervalSize(int* minVal, int* maxVal, int* bucketsNumbers){
-    return (int)((*maxVal - *minVal) / *bucketsNumbers );
+    return (int)((*maxVal - *minVal) / *bucketsNumbers);
 }
 
 int main(){

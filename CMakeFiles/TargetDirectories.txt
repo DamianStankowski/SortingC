@@ -1,3 +1,0 @@
-C:/Users/damia/Documents/workspace/algorithms/sorting/CMakeFiles/mi_programa.dir
-C:/Users/damia/Documents/workspace/algorithms/sorting/CMakeFiles/edit_cache.dir
-C:/Users/damia/Documents/workspace/algorithms/sorting/CMakeFiles/rebuild_cache.dir

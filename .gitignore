@@ -1,1 +1,56 @@
-build/
+# Archivos y directorios generados por CMake
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+CMakeOutput.log
+CMakeTmp/
+CMakeUserPresets.json
+CMakeVars.json
+CMakeState.txt
+cmake_install.cmake
+
+# Archivos binarios y ejecutables
+*.exe
+*.out
+*.so
+*.dll
+*.dylib
+
+# Archivos objeto generados por el compilador
+*.o
+*.obj
+
+# Archivos generados por IDEs y editores de texto
+.idea/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.sln
+*.swp
+*.swo
+
+# Archivos generados por compiladores
+*.i
+*.s
+*.S
+*.d
+*.su
+*.o
+*.a
+*.dll
+*.so
+*.dylib
+
+# Archivos de respaldo y caché
+*~
+*.bak
+*.swp
+*.db
+*.rej
+*.orig
+
+# Directorio de compilación por defecto
+/build/
